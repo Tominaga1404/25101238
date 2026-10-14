@@ -27,3 +27,7 @@
         </nav>
     </header>
     <main>
+    </main>
+    <footer>
+    </footer>
+</body>
