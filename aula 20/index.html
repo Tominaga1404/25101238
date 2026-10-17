@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Painel de Alunos</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f6f9;
+            margin: 0;
+            padding: 2rem;
+            display: flex;
+            justify-content: center;
+        }
+        .container {
+            width: 100%;
+            max-width: 650px;
+            background: #fff;
+            padding: 1.5rem 2rem;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.08);
+        }
+        h1 {
+            font-size: 1.5rem;
+            color: #333;
+            margin-bottom: 1rem;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            text-align: left;
+        }
+        th, td {
+            padding: 10px 12px;
+            border-bottom: 1px solid #e1e4e8;
+        }
+        th {
+            background-color: #f8fafc;
+            color: #475569;
+            font-size: 0.9rem;
+            text-transform: uppercase;
+        }
+        .status-aprovado {
+            color: #166534;
+            background-color: #dcfce7;
+            padding: 3px 8px;
+            border-radius: 4px;
+            font-weight: bold;
+            font-size: 0.85rem;
+        }
+        .status-reprovado {
+            color: #991b1b;
+            background-color: #fee2e2;
+            padding: 3px 8px;
+            border-radius: 4px;
+            font-weight: bold;
+            font-size: 0.85rem;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h1>Listagem de Alunos</h1>
+    <table>
+        <thead>
+            <tr>
+                <th>Aluno</th>
+                <th>Nota</th>
+                <th>Status</th>
+            </tr>
+        </thead>
+        <tbody id="tabela-alunos">
+            <tr>
+                <td colspan="3">Carregando dados...</td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+
+<script src="js/app.js"></script>
+</body>
+</html>
