@@ -1,7 +1,6 @@
 -- =====================================================================
 -- Aula 29 - Atividade prática: lendo o plano de execução com EXPLAIN
 -- Banco: lab_otimizacao (locadora de carros) - MySQL 8.0.18+ (Laragon)
--- Execute este arquivo inteiro (ex.: HeidiSQL > Arquivo > Executar SQL)
 -- =====================================================================
 
 -- ---------------------------------------------------------------------
