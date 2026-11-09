@@ -1,6 +1,6 @@
 # Aula 29 — Atividade: lendo o plano de execução com EXPLAIN
 
-Respostas obtidas rodando o script `atividade_explain.sql` (MySQL 8.0). A saída completa está em `saida_explain.txt`.
+Respostas obtidas rodando o script `banco_de_dados.sql` (MySQL 8.0). A saída completa está em `saida.txt`.
 Os tempos (ms) e os valores de `rows` mudam um pouco de máquina para máquina, porque `rows` é uma estimativa. Os valores de `type` e `key` devem ser os mesmos no Laragon.
 
 Conferência da carga: **50.000 clientes** e **500.000 locações**. `SHOW INDEX FROM locacao` mostra apenas `PRIMARY`.
